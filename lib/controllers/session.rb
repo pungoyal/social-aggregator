@@ -7,7 +7,7 @@ class SocialAggregator::Controllers::Session < Sinatra::Base
     <a href='auth/twitter'>Login with twitter</a><br>"
   end
 
-  post '/auth/:provider/callback' do
+  get '/auth/:provider/callback' do
     session[:authenticated] = true
     erb "<h1>#{params[:provider]}</h1>
          <pre>#{JSON.pretty_generate(request.env['omniauth.auth'])}</pre>"
