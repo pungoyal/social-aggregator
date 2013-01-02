@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.bundle
+log/*.log
+tmp/
+work/
+*#
+*.swp
+*~
+coverage/**
+*.knob
+vendor/cache/
+vendor/bundle/
+/db/*.sqlite3

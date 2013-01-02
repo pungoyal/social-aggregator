@@ -1,0 +1,99 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.2.9)
+      activesupport (= 3.2.9)
+      builder (~> 3.0.0)
+    activesupport (3.2.9)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    backports (2.6.5)
+    builder (3.0.4)
+    coderay (1.0.8)
+    daemons (1.1.9)
+    database_cleaner (0.9.1)
+    diff-lcs (1.1.3)
+    eventmachine (1.0.0)
+    factory_girl (4.1.0)
+      activesupport (>= 3.0.0)
+    fakeweb (1.3.0)
+    foreman (0.60.2)
+      thor (>= 0.13.6)
+    i18n (0.6.1)
+    method_source (0.8.1)
+    mongoid (3.0.16)
+      activemodel (~> 3.1)
+      moped (~> 1.1)
+      origin (~> 1.0)
+      tzinfo (~> 0.3.22)
+    mongoid-rspec (1.5.5)
+      mongoid (>= 3.0.1)
+      rake
+      rspec (>= 2.9)
+    moped (1.3.2)
+    multi_json (1.5.0)
+    origin (1.0.11)
+    pry (0.9.10)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.3.1)
+    rack (1.4.1)
+    rack-protection (1.3.2)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.0.3)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.2)
+    rspec-expectations (2.12.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.1)
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    sinatra-contrib (1.3.2)
+      backports (>= 2.0)
+      eventmachine
+      rack-protection
+      rack-test
+      sinatra (~> 1.3.0)
+      tilt (~> 1.3)
+    sinatra-reloader (1.0)
+      sinatra-contrib
+    slop (3.3.3)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.16.0)
+    tilt (1.3.3)
+    torquebox-no-op (2.2.0)
+    tzinfo (0.3.35)
+    vcr (2.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  database_cleaner
+  factory_girl
+  fakeweb
+  foreman
+  jruby-openssl
+  mongoid
+  mongoid-rspec
+  pry
+  rack-test
+  rake
+  sinatra
+  sinatra-contrib
+  sinatra-reloader
+  thin
+  torquebox-no-op
+  torquebox-rake-support
+  torquebox-server
+  vcr
