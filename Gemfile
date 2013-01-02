@@ -6,7 +6,14 @@ gem 'rake'
 
 gem "sinatra"
 gem "sinatra-contrib"
+
 gem "mongoid"
+
+gem "omniauth"
+gem 'omniauth-facebook'
+gem 'omniauth-github'
+gem 'omniauth-twitter'
+gem 'omniauth-linkedin'
 
 gem 'pry'
 

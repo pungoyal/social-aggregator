@@ -12,3 +12,4 @@ coverage/**
 vendor/cache/
 vendor/bundle/
 /db/*.sqlite3
+.env
