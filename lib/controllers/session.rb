@@ -8,9 +8,6 @@ class SocialAggregator::Controllers::Session < Sinatra::Base
   end
 
   post '/auth/:provider/callback' do
-    require 'pry'
-    binding.pry
-
     session[:authenticated] = true
     erb "<h1>#{params[:provider]}</h1>
          <pre>#{JSON.pretty_generate(request.env['omniauth.auth'])}</pre>"
